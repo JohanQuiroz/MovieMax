@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "It",
+    "descripcion": "Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.",
+    "ruta": "peliculas_terror_portada/3.png"
+  },
+
+  {
+    "nombre": "Guardianes de la Galaxia",
+    "descripcion": "Un aventurero espacial se convierte en la presa de unos cazadores de tesoros después de robar el orbe de un villano traicionero. Cuando descubre su poder, debe hallar la forma de unir a unos rivales para salvar al universo.",
+    "ruta": "peliculas_accion_portada/15.png"
+  },
+
+  {
+    "nombre": "Avengers: Infinity War",
+    "descripcion": "Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito: poder, tiempo, alma, realidad, mente y espacio, nadie podrá detenerlo.",
+    "ruta": "peliculas_accion_portada/13.png"
+  },
+
+  {
+    "nombre": "Matrix",
+    "descripcion": "Un experto en computadoras descubre que su mundo es una simulación total creada con maliciosas intenciones por parte de la ciberinteligencia.",
+    "ruta": "peliculas_accion_portada/6.png"
+  },
+
+  {
+    "nombre": "El Señor de los Anillos",
+    "descripcion": "Frodo Bolsón es un hobbit al que su tío Bilbo hace portador del poderoso Anillo Único, capaz de otorgar un poder ilimitado al que la posea, con la finalidad de destruirlo. Sin embargo, fuerzas malignas muy poderosas quieren arrebatárselo.",
+    "ruta": "peliculas_accion_portada/3.png"
+  },
+
+  {
+    "nombre": "Joker",
+    "descripcion": "Arthur Fleck adora hacer reír a la gente, pero su carrera como comediante es un fracaso. El repudio social, la marginación y una serie de trágicos acontecimientos lo conducen por el sendero de la locura y, finalmente, cae en el mundo del crimen.",
+    "ruta": "peliculas_tendencia_portada/10.png"
+  }
+]

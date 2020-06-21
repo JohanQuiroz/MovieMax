@@ -1,0 +1,301 @@
+[
+    {
+        "nombre" : "Da 5 blood",
+        "ruta" : "peliculas_tendencia/1.png"
+    },
+
+    {
+        "nombre" : "The King of staten island",
+        "ruta" : "peliculas_tendencia/2.png"
+    },
+
+    {
+        "nombre" : "Artemis Fowl",
+        "ruta" : "peliculas_tendencia/3.png"
+    },
+
+    {
+        "nombre" : "Knives Out",
+        "ruta" : "peliculas_tendencia/4.png"
+    },
+
+    {
+        "nombre" : "Shirley",
+        "ruta" : "peliculas_tendencia/5.png"
+    },
+
+    {
+        "nombre" : "Parasite",
+        "ruta" : "peliculas_tendencia/6.png"
+    },
+
+    {
+        "nombre" : "13",
+        "ruta" : "peliculas_tendencia/7.png"
+    },
+
+    {
+        "nombre" : "Lady Bird",
+        "ruta" : "peliculas_tendencia/8.png"
+    },
+
+    {
+        "nombre" : "Uncut Gems",
+        "ruta" : "peliculas_tendencia/9.png"
+    },
+
+    {
+        "nombre" : "Joker",
+        "ruta" : "peliculas_tendencia/10.png"
+    },
+
+    {
+        "nombre" : "Inception",
+        "ruta" : "peliculas_tendencia/11.png"
+    },
+
+    {
+        "nombre" : "Midsommar",
+        "ruta" : "peliculas_tendencia/12.png"
+    },
+
+    {
+        "nombre" : "Once Upon A Time In Hollywood",
+        "ruta" : "peliculas_tendencia/13.png"
+    },
+
+    {
+        "nombre" : "Pulp Fiction",
+        "ruta" : "peliculas_tendencia/14.png"
+    },
+    
+    {
+        "nombre" : "Moonlight",
+        "ruta" : "peliculas_tendencia/15.png"
+    },
+
+    {
+        "nombre" : "Terminator 2",
+        "ruta" : "peliculas_accion/1.png"
+    },
+
+    {
+        "nombre" : "Raiders",
+        "ruta" : "peliculas_accion/2.png"
+    },
+
+    {
+        "nombre" : "El Señor de los Anillos",
+        "ruta" : "peliculas_accion/3.png"
+    },
+
+    {
+        "nombre" : "El Caballero de la Noche",
+        "ruta" : "peliculas_accion/4.png"
+    },
+
+    {
+        "nombre" : "Star Wars 2",
+        "ruta" : "peliculas_accion/5.png"
+    },
+
+    {
+        "nombre" : "Matrix",
+        "ruta" : "peliculas_accion/6.png"
+    },
+
+    {
+        "nombre" : "Aliens",
+        "ruta" : "peliculas_accion/7.png"
+    },
+
+    {
+        "nombre" : "Kill Bill",
+        "ruta" : "peliculas_accion/8.png"
+    },
+
+    {
+        "nombre" : "Star Wars",
+        "ruta" : "peliculas_accion/9.png"
+    },
+
+    {
+        "nombre" : "Sherlock Jr.",
+        "ruta" : "peliculas_accion/10.png"
+    },
+
+    {
+        "nombre" : "Mad Max",
+        "ruta" : "peliculas_accion/11.png"
+    },
+
+    {
+        "nombre" : "Heat",
+        "ruta" : "peliculas_accion/12.png"
+    },
+
+    {
+        "nombre" : "Avengers: Infinity War",
+        "ruta" : "peliculas_accion/13.png"
+    },
+
+    {
+        "nombre" : "1917",
+        "ruta" : "peliculas_accion/14.png"
+    },
+
+    {
+        "nombre" : "Guardianes de la Galaxia",
+        "ruta" : "peliculas_accion/15.png"
+    },
+
+    {
+        "nombre" : "Deadpool",
+        "ruta" : "peliculas_comedia/1.png"
+    },
+
+    {
+        "nombre" : "Thor Ragnarok",
+        "ruta" : "peliculas_comedia/2.png"
+    },
+
+    {
+        "nombre" : "El Show de Truman",
+        "ruta" : "peliculas_comedia/3.png"
+    },
+
+    {
+        "nombre" : "Antman y la Avispa",
+        "ruta" : "peliculas_comedia/4.png"
+    },
+
+    {
+        "nombre" : "Nice Guys",
+        "ruta" : "peliculas_comedia/5.png"
+    },
+
+    {
+        "nombre" : "Perdón por molestarte",
+        "ruta" : "peliculas_comedia/6.png"
+    },
+
+    {
+        "nombre" : "Shrek",
+        "ruta" : "peliculas_comedia/7.png"
+    },
+
+    {
+        "nombre" : "Mi Pobre Angelito",
+        "ruta" : "peliculas_comedia/8.png"
+    },
+
+    {
+        "nombre" : "Superbad",
+        "ruta" : "peliculas_comedia/9.png"
+    },
+
+    {
+        "nombre" : "Groundhog Day",
+        "ruta" : "peliculas_comedia/10.png"
+    },
+
+    {
+        "nombre" : "The Edge of Seventeen",
+        "ruta" : "peliculas_comedia/11.png"
+    },
+
+    {
+        "nombre" : "Escuela de Rock",
+        "ruta" : "peliculas_comedia/12.png"
+    },
+
+    {
+        "nombre" : "Easy A",
+        "ruta" : "peliculas_comedia/13.png"
+    },
+
+    {
+        "nombre" : "Paddington 2",
+        "ruta" : "peliculas_comedia/14.png"
+    },
+
+    {
+        "nombre" : "Mamma",
+        "ruta" : "peliculas_comedia/15.png"
+    },
+
+    {
+        "nombre" : "The Lighthouse",
+        "ruta" : "peliculas_terror/1.png"
+    },
+
+    {
+        "nombre" : "Alien",
+        "ruta" : "peliculas_terror/2.png"
+    },
+
+    {
+        "nombre" : "It",
+        "ruta" : "peliculas_terror/3.png"
+    },
+
+    {
+        "nombre" : "Tiburón",
+        "ruta" : "peliculas_terror/4.png"
+    },
+
+    {
+        "nombre" : "El Resplandor",
+        "ruta" : "peliculas_terror/5.png"
+    },
+
+    {
+        "nombre" : "It Capítulo 2",
+        "ruta" : "peliculas_terror/6.png"
+    },
+
+    {
+        "nombre" : "El Exorcista",
+        "ruta" : "peliculas_terror/7.png"
+    },
+
+    {
+        "nombre" : "El Conjuro",
+        "ruta" : "peliculas_terror/8.png"
+    },
+
+    {
+        "nombre" : "Pesadilla en la Calle Elm",
+        "ruta" : "peliculas_terror/9.png"
+    },
+
+    {
+        "nombre" : "Gremlins",
+        "ruta" : "peliculas_terror/10.png"
+    },
+
+    {
+        "nombre" : "La Mosca",
+        "ruta" : "peliculas_terror/11.png"
+    },
+
+    {
+        "nombre" : "Poltergeist",
+        "ruta" : "peliculas_terror/12.png"
+    },
+
+    {
+        "nombre" : "Life",
+        "ruta" : "peliculas_terror/13.png"
+    },
+
+    {
+        "nombre" : "Dracula",
+        "ruta" : "peliculas_terror/14.png"
+    },
+
+    {
+        "nombre" : "Alien 3",
+        "ruta" : "peliculas_terror/15.png"
+    }
+]

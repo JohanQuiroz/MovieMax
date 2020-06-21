@@ -1,0 +1,36 @@
+[
+    {
+        "nombre" : "Parasite",
+        "ruta" : "milistadepeliculas/peliculas_tendencia/6.png"
+    },
+
+    {
+        "nombre" : "Uncut Gems",
+        "ruta" : "milistadepeliculas/peliculas_tendencia/9.png"
+    },
+
+    {
+        "nombre" : "Pulp Fiction",
+        "ruta" : "milistadepeliculas/peliculas_tendencia/14.png"
+    },
+
+    {
+        "nombre" : "El Caballero de la Noche",
+        "ruta" : "milistadepeliculas/peliculas_accion/4.png"
+    },
+
+    {
+        "nombre" : "Shrek",
+        "ruta" : "milistadepeliculas/peliculas_comedia/7.png"
+    },
+
+    {
+        "nombre" : "The Lighthouse",
+        "ruta" : "milistadepeliculas/peliculas_terror/1.png"
+    },
+
+    {
+        "nombre" : "Alien",
+        "ruta" : "milistadepeliculas/peliculas_terror/2.png"
+    }
+]

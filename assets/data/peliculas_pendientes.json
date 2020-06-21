@@ -1,0 +1,21 @@
+[
+    {
+        "nombre" : "Kill Bill",
+        "ruta" : "milistadependientes/peliculas_accion/8.png"
+    },
+
+    {
+        "nombre" : "Mi Pobre Angelito",
+        "ruta" : "milistadependientes/peliculas_comedia/8.png"
+    },
+
+    {
+        "nombre" : "Tiburón",
+        "ruta" : "milistadependientes/peliculas_terror/4.png"
+    },
+
+    {
+        "nombre" : "El Resplandor",
+        "ruta" : "milistadependientes/peliculas_terror/5.png"
+    },
+]

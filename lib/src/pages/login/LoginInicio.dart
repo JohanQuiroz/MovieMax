@@ -1,9 +1,12 @@
+import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 
 class LoginInicio extends StatelessWidget {
+              
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Stack(
         fit: StackFit.expand,
         children: <Widget>[
@@ -16,9 +19,15 @@ class LoginInicio extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 SizedBox(height: 400,),
-                renderBoton(context, Colors.white70, Colors.black, 'Iniciar Sesión', 'InicioSesion'),
+                ZoomIn(
+                  delay: Duration(milliseconds: 1500),
+                  child: renderBoton(context, Colors.white70, Colors.black, 'Iniciar Sesión', 'InicioSesion')
+                ),
                 SizedBox( height: 50,),
-                renderBoton(context, Colors.amber, Colors.black, 'Registrarse', 'RegistroCuenta'),
+                ZoomIn(
+                  delay: Duration(milliseconds: 1500),
+                  child: renderBoton(context, Colors.amber, Colors.black, 'Registrarse', 'RegistroCuenta')
+                ),
               ],
             ),
           ),
