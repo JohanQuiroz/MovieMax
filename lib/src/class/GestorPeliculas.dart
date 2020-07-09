@@ -7,7 +7,6 @@ class _GestorPeliculas {
   List<Pelicula> peliculas  = [];
   List<Pelicula> peliculasRecientes = [];
   
-
   _GestorPeliculas() {
     cargarTodasLasPeliculas();
     cargarPeliculasRecientes();

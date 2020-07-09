@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530281473893",
+    "firebase_url": "https://moviemax-app.firebaseio.com",
+    "project_id": "moviemax-app",
+    "storage_bucket": "moviemax-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530281473893:android:9863850c889ece1415638c",
+        "android_client_info": {
+          "package_name": "com.example.movie_max"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530281473893-a5us18tcqfksljjilo31837l0h7dla96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movie_max",
+            "certificate_hash": "672ed30cc796b1f4fb41c025b9bee5ee8f3d52fe"
+          }
+        },
+        {
+          "client_id": "530281473893-n11hdbrcd6mit68ed9dh309njo3tsa63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3XTmFjOMflfXZeu41hLd523lcU0LWoZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530281473893-n11hdbrcd6mit68ed9dh309njo3tsa63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

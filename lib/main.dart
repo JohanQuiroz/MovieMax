@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Material App',
+      title: 'Moviemax',
       home: LoginInicio(),
-      routes: {
+      routes: {                
         'InicioSesion' : (context) => InicioSesion(),       
         'RegistroCuenta' : (context) => RegistroCuenta(),
         'PaginaPrincipal' : (context) => PaginaPrincipal(),
