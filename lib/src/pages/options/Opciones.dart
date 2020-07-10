@@ -1,5 +1,8 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:movie_max/src/blocs/authenticationBloc/authenticationBloc.dart';
+import 'package:movie_max/src/blocs/authenticationBloc/authenticationEvent.dart';
 
 class Opciones extends StatelessWidget {
   @override
@@ -57,7 +60,7 @@ class Opciones extends StatelessWidget {
                   SizedBox(height: 5,),                
                   FadeInLeft(child: renderOpcion('Acerca de')),
                   SizedBox(height: 5,),
-                  FadeInRight(child: renderOpcion('Cerrar Sesión')),
+                  FadeInRight(child: renderCerrarSesion(context)),
 
                 ],
               ),
@@ -73,6 +76,15 @@ class Opciones extends StatelessWidget {
   Widget renderOpcion(String texto){
     return  ListTile(
       title: Text(texto),                  
+    );
+  }
+
+  Widget renderCerrarSesion(BuildContext context){
+    return  ListTile(
+      title: Text('Cerrar Sesión'),    
+      onTap: (){
+        BlocProvider.of<AuthenticationBloc>(context).add(LoggedOut());
+      },              
     );
   }
 }
