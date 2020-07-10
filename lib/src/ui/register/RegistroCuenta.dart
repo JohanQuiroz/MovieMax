@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_max/src/blocs/registerBloc/bloc.dart';
-import 'package:movie_max/src/pages/register/RegistroForm.dart';
+import 'package:movie_max/src/ui/register/RegistroForm.dart';
 import 'package:movie_max/src/repository/userRepository.dart';
 
 class RegistroCuenta extends StatelessWidget {

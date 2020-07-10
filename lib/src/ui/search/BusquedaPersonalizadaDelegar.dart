@@ -1,7 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_max/src/class/GestorPeliculas.dart';
-import 'package:movie_max/src/class/Pelicula.dart';
+import 'package:movie_max/src/models/GestorPeliculas.dart';
+import 'package:movie_max/src/models/Pelicula.dart';
 
 
 class BusquedaPersonalizadaDelegar extends SearchDelegate<String> {

@@ -1,9 +1,9 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_max/src/pages/movies/PaginaPrincipal.dart';
-import 'package:movie_max/src/pages/options/Opciones.dart';
-import 'package:movie_max/src/pages/search/BuscadorPeliculas.dart';
-import 'package:movie_max/src/pages/favorite/MiListaPeliculas.dart';
+import 'package:movie_max/src/ui/movies/PaginaPrincipal.dart';
+import 'package:movie_max/src/ui/options/Opciones.dart';
+import 'package:movie_max/src/ui/search/BuscadorPeliculas.dart';
+import 'package:movie_max/src/ui/favorite/MiListaPeliculas.dart';
 
 
 

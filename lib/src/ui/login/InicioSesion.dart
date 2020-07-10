@@ -2,7 +2,7 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_max/src/blocs/loginBloc/loginBloc.dart';
-import 'package:movie_max/src/pages/login/LoginForm.dart';
+import 'package:movie_max/src/ui/login/LoginForm.dart';
 import 'package:movie_max/src/repository/userRepository.dart';
 
 class InicioSesion extends StatelessWidget {

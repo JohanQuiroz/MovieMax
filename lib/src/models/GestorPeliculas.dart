@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:movie_max/src/class/Pelicula.dart';
+import 'package:movie_max/src/models/Pelicula.dart';
 
 class _GestorPeliculas {
 

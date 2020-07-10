@@ -1,7 +1,7 @@
 
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_max/src/class/GestorPeliculas.dart';
+import 'package:movie_max/src/models/GestorPeliculas.dart';
 
 
 class MiListaPeliculas extends StatelessWidget {

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:movie_max/src/blocs/simpleBlocDelegate.dart';
-import 'package:movie_max/src/pages/builderBloc.dart';
-import 'package:movie_max/src/pages/login/InicioSesion.dart';
-import 'package:movie_max/src/pages/movies/MenuControllerBar.dart';
-import 'package:movie_max/src/pages/movies/PaginaPrincipal.dart';
-import 'package:movie_max/src/pages/register/RegistroCuenta.dart';
-import 'package:movie_max/src/pages/splashScreen/splashScreen.dart';
+import 'package:movie_max/src/ui/builderBloc.dart';
+import 'package:movie_max/src/ui/login/InicioSesion.dart';
+import 'package:movie_max/src/ui/movies/MenuControllerBar.dart';
+import 'package:movie_max/src/ui/movies/PaginaPrincipal.dart';
+import 'package:movie_max/src/ui/register/RegistroCuenta.dart';
+import 'package:movie_max/src/ui/splashScreen/splashScreen.dart';
 
 import 'package:movie_max/src/repository/userRepository.dart';
 import 'package:movie_max/src/blocs/authenticationBloc/bloc.dart';
