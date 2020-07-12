@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_max/src/blocs/authenticationBloc/bloc.dart';
+import 'package:movie_max/src/blocs/movieBloc/nowMovieBloc/nowMovieBloc.dart';
+import 'package:movie_max/src/repository/movieRepository.dart';
 import 'package:movie_max/src/ui/login/InicioSesion.dart';
 import 'package:movie_max/src/ui/movies/MenuControllerBar.dart';
 import 'package:movie_max/src/repository/userRepository.dart';
@@ -22,7 +24,10 @@ class BuilderBloc extends StatelessWidget {
           if(state is Uninitialized)
             return Scaffold(backgroundColor: Colors.black,);
           if(state is Authenticated)
-            return MenuControllerBar();
+            return BlocProvider(
+              create : (context) => NowMovieBloc(movieRepository: MovieRepository()),
+              child: MenuControllerBar(),
+            );
           if(state is Unauthenticated)
             return InicioSesion(userRepository: _userRepository,);
         },

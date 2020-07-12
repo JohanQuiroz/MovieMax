@@ -36,6 +36,9 @@ dependencies:
   meta: ^1.1.8
   rxdart: ^0.24.1
   flutter_auth_buttons: ^0.8.0
+  http:
+  page_indicator: ^0.3.0
+  flutter_rating_bar: ^3.0.1+1
 
 
 dev_dependencies:
