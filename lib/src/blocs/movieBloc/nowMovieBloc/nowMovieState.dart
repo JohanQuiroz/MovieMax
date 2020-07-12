@@ -1,8 +1,7 @@
  import 'package:equatable/equatable.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:movie_max/src/models/movieModels/itemModel.dart';
-import 'package:movie_max/src/models/genreModels/itemGenreModel.dart';
-import 'package:movie_max/src/models/movieModels/resultModel.dart';
+import 'package:movie_max/src/models/movieModels/itemMovieModel.dart';
+
 
 abstract class NowMovieState extends Equatable{
 
@@ -21,7 +20,7 @@ class NowMovieLoadingState extends NowMovieState{
 
 class NowMovieLoadedState extends NowMovieState{
 
-  ItemModel movies;
+  ItemMovieModel movies;
 
   NowMovieLoadedState({@required this.movies});
 

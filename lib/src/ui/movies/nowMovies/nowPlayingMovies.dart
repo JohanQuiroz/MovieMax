@@ -2,8 +2,8 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_max/src/blocs/movieBloc/nowMovieBloc/bloc.dart';
-import 'package:movie_max/src/models/movieModels/itemModel.dart';
-import 'package:movie_max/src/models/movieModels/resultModel.dart';
+import 'package:movie_max/src/models/movieModels/itemMovieModel.dart';
+import 'package:movie_max/src/models/movieModels/resultMovieModel.dart';
 import 'package:page_indicator/page_indicator.dart';
 
 class NowPlayingMovies extends StatefulWidget {
@@ -44,54 +44,13 @@ class _NowPlayingMoviesState extends State<NowPlayingMovies> {
                 return _renderLoading();     
               else if (state is NowMovieLoadedState){
                 return _renderMovies(state.movies, context);
-              }
-                                                               
-              /*if(state is MovieInitialState){
-                return _renderLoading();
-              }
-              if(state is MovieLoadingState){
-                return _renderLoading();
-              }
-              if(state is MovieLoadedState){
-                return _renderMovies(state.movies);
-              } */            
+              }         
             },
           ),
         ),               
                   
     );
   }
-
-/*
-  Widget renderPeliculas(String titulo, String categoria){
-    return Container(
-      padding: EdgeInsets.only(left: 5, right: 5),
-      height: 220,
-      child: Column(
-        children: <Widget>[  
-          Expanded(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: <Widget>[
-                Padding(padding: EdgeInsets.only(left: 5)),
-                Text(titulo, style: TextStyle(color: Colors.white, fontSize: 15)),
-              ]
-            ),
-          ),              
-          Container(
-            height: 200,
-            child: ListView(
-              padding: EdgeInsets.all(3),
-              scrollDirection: Axis.horizontal,                    
-              children: renderContainers(categoria),
-            ),
-          )
-        ],
-      ),
-    );
-  }*/
-
-  
 
   Widget _renderLoading(){
     return Center(
@@ -112,7 +71,7 @@ class _NowPlayingMoviesState extends State<NowPlayingMovies> {
     );
   }
 
-   Widget _renderItems(List<ResultModel> results){
+   Widget _renderItems(List<ResultMovieModel> results){
     return PageView.builder(
       scrollDirection: Axis.horizontal,
       itemCount: results.take(5).length,
@@ -179,7 +138,7 @@ class _NowPlayingMoviesState extends State<NowPlayingMovies> {
     ); 
   }
 
-  Widget _renderMovies(ItemModel movies, BuildContext context){
+  Widget _renderMovies(ItemMovieModel movies, BuildContext context){
     print(movies.results[0].posterPath);
     if(movies.results.length == 0){
       return Container(

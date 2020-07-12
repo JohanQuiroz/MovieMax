@@ -1,7 +1,7 @@
-import 'package:movie_max/src/models/movieModels/resultModel.dart';
+import 'package:movie_max/src/models/movieModels/resultMovieModel.dart';
 
-class ItemModel {
-    ItemModel({
+class ItemMovieModel {
+    ItemMovieModel({
         this.page,
         this.totalResults,
         this.totalPages,
@@ -11,13 +11,13 @@ class ItemModel {
     int page;
     int totalResults;
     int totalPages;
-    List<ResultModel> results;
+    List<ResultMovieModel> results;
 
-    factory ItemModel.fromJson(Map<String, dynamic> json) => ItemModel(
+    factory ItemMovieModel.fromJson(Map<String, dynamic> json) => ItemMovieModel(
         page: json["page"],
         totalResults: json["total_results"],
         totalPages: json["total_pages"],
-        results: List<ResultModel>.from(json["results"].map((x) => ResultModel.fromJson(x))),
+        results: List<ResultMovieModel>.from(json["results"].map((x) => ResultMovieModel.fromJson(x))),
     );
 
     Map<String, dynamic> toJson() => {

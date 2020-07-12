@@ -2,36 +2,36 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:movie_max/src/models/movieModels/itemMovieModel.dart';
 
-abstract class PopularMovieState extends Equatable{
+abstract class SimilarMovieState extends Equatable{
 
 }
 
-class PopularMovieInitialState extends PopularMovieState{
+class SimilarMovieInitialState extends SimilarMovieState{
   @override  
   List<Object> get props => [];
 
 }
 
-class PopularMovieLoadingState extends PopularMovieState{
+class SimilarMovieLoadingState extends SimilarMovieState{
   @override  
   List<Object> get props => [];
 }
 
-class PopularMovieLoadedState extends PopularMovieState{
+class SimilarMovieLoadedState extends SimilarMovieState{
 
   ItemMovieModel movies;
 
-  PopularMovieLoadedState({@required this.movies});
+  SimilarMovieLoadedState({@required this.movies});
 
   @override  
   List<Object> get props => [];
 }
 
-class PopularMovieErrorState extends PopularMovieState{
+class SimilarMovieErrorState extends SimilarMovieState{
 
   String message;
   
-  PopularMovieErrorState({@required this.message});
+  SimilarMovieErrorState({@required this.message});
 
   @override  
   List<Object> get props => [];

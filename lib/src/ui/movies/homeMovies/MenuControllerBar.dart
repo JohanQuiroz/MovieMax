@@ -1,8 +1,8 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_max/src/ui/movies/nowPlayingMovies.dart';
-import 'package:movie_max/src/ui/movies/popularMovies.dart';
-import 'package:movie_max/src/ui/movies/homeMovies.dart';
+import 'package:movie_max/src/ui/movies/nowMovies/nowPlayingMovies.dart';
+import 'package:movie_max/src/ui/movies/popularMovies/popularMovies.dart';
+import 'package:movie_max/src/ui/movies/homeMovies/homeMovies.dart';
 import 'package:movie_max/src/ui/options/Opciones.dart';
 import 'package:movie_max/src/ui/search/BuscadorPeliculas.dart';
 import 'package:movie_max/src/ui/favorite/MiListaPeliculas.dart';

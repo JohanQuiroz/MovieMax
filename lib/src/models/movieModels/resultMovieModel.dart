@@ -1,4 +1,4 @@
-class ResultModel {    
+class ResultMovieModel {    
 
     double popularity;
     String voteCount;
@@ -13,7 +13,7 @@ class ResultModel {
     String overview;
     String releaseDate;
 
-    ResultModel({
+    ResultMovieModel({
         this.popularity,
         this.voteCount,
         this.video,
@@ -59,7 +59,7 @@ class ResultModel {
     bool get getIsVideo => video;
     int get getId => id;
 
-    factory ResultModel.fromJson(Map<String, dynamic> json) => ResultModel(
+    factory ResultMovieModel.fromJson(Map<String, dynamic> json) => ResultMovieModel(
         popularity: json["popularity"].toDouble(),
         voteCount: json["vote_count"].toString(),
         video: json["video"],

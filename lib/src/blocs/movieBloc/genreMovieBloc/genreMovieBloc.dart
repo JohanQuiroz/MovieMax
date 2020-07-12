@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_max/src/blocs/movieBloc/genreMovieBloc/bloc.dart';
 import 'package:movie_max/src/repository/movieRepository.dart';
 import 'package:movie_max/src/models/genreModels/itemGenreModel.dart';
-import 'package:movie_max/src/models/movieModels/itemModel.dart';
+import 'package:movie_max/src/models/movieModels/itemMovieModel.dart';
 
 class GenreMovieBloc extends Bloc<GenreMovieEvent, GenreMovieState>
 {
@@ -32,7 +32,7 @@ class GenreMovieBloc extends Bloc<GenreMovieEvent, GenreMovieState>
     if(event is FetchMovieByGenreEvent){
       yield GenreMovieLoadingState();
       try{
-        ItemModel movies =  await movieRepository.fetchAllMoviesByGenre(event.id);
+        ItemMovieModel movies =  await movieRepository.fetchAllMoviesByGenre(event.id);
         yield MovieByGenreLoadedState(movies: movies);
       }
       catch(e){

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_max/src/models/genreModels/itemGenreModel.dart';
-import 'package:movie_max/src/ui/movies/genresListMovies.dart';
+import 'package:movie_max/src/ui/movies/genresMovies/genresListMovies.dart';
 import 'package:movie_max/src/blocs/movieBloc/genreMovieBloc/bloc.dart';
 
 class Genres extends StatefulWidget {

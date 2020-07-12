@@ -2,8 +2,8 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:movie_max/src/models/movieModels/itemModel.dart';
-import 'package:movie_max/src/models/movieModels/resultModel.dart';
+import 'package:movie_max/src/models/movieModels/itemMovieModel.dart';
+import 'package:movie_max/src/models/movieModels/resultMovieModel.dart';
 import 'package:movie_max/src/blocs/movieBloc/popularMovieBloc/bloc.dart';
 
 class PopularMovies extends StatefulWidget {
@@ -15,7 +15,7 @@ class PopularMovies extends StatefulWidget {
 class _PopularMoviesState extends State<PopularMovies> {
   
   PopularMovieBloc popularMovieBloc;
-  ItemModel itemMovie;
+  ItemMovieModel itemMovie;
 
   @override
   void initState() {    
@@ -77,7 +77,7 @@ class _PopularMoviesState extends State<PopularMovies> {
     );
   }*/
 
-  Widget _renderItems(List<ResultModel> results){
+  Widget _renderItems(List<ResultMovieModel> results){
     return ListView.builder(
       scrollDirection: Axis.horizontal,
       itemCount: results.length,
@@ -133,7 +133,7 @@ class _PopularMoviesState extends State<PopularMovies> {
     );
   }
 
-  Widget _renderMovies(ItemModel movies, BuildContext context){
+  Widget _renderMovies(ItemMovieModel movies, BuildContext context){
     print(movies.results[0].posterPath);
     return Container(      
       width: MediaQuery.of(context).size.width -20,

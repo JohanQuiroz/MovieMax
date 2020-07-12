@@ -4,7 +4,7 @@ import 'package:movie_max/src/blocs/authenticationBloc/bloc.dart';
 import 'package:movie_max/src/blocs/movieBloc/nowMovieBloc/nowMovieBloc.dart';
 import 'package:movie_max/src/repository/movieRepository.dart';
 import 'package:movie_max/src/ui/login/InicioSesion.dart';
-import 'package:movie_max/src/ui/movies/MenuControllerBar.dart';
+import 'package:movie_max/src/ui/movies/homeMovies/MenuControllerBar.dart';
 import 'package:movie_max/src/repository/userRepository.dart';
 
 class BuilderBloc extends StatelessWidget {

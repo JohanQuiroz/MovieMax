@@ -2,7 +2,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:movie_max/src/models/genreModels/itemGenreModel.dart';
-import 'package:movie_max/src/models/movieModels/itemModel.dart';
+import 'package:movie_max/src/models/movieModels/itemMovieModel.dart';
 
 abstract class GenreMovieState extends Equatable{
 
@@ -30,7 +30,7 @@ class GenreMovieLoadedState extends GenreMovieState{
 }
 
 class MovieByGenreLoadedState extends GenreMovieState{
-  ItemModel movies;
+  ItemMovieModel movies;
   
 
   MovieByGenreLoadedState({@required this.movies});

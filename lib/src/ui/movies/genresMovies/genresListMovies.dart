@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_max/src/models/genreModels/itemGenreModel.dart';
 import 'package:movie_max/src/models/genreModels/resultGenreModel.dart';
-import 'package:movie_max/src/models/movieModels/resultModel.dart';
+import 'package:movie_max/src/models/movieModels/resultMovieModel.dart';
 import 'package:movie_max/src/repository/movieRepository.dart';
-import 'package:movie_max/src/ui/movies/genresMovies.dart';
+import 'package:movie_max/src/ui/movies/genresMovies/genresMovies.dart';
 import 'package:movie_max/src/blocs/movieBloc/genreMovieBloc/bloc.dart';
 
 

@@ -2,9 +2,9 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_max/src/repository/movieRepository.dart';
-import 'package:movie_max/src/ui/movies/nowPlayingMovies.dart';
-import 'package:movie_max/src/ui/movies/genres.dart';
-import 'package:movie_max/src/ui/movies/popularMovies.dart';
+import 'package:movie_max/src/ui/movies/nowMovies/nowPlayingMovies.dart';
+import 'package:movie_max/src/ui/movies/genresMovies/genres.dart';
+import 'package:movie_max/src/ui/movies/popularMovies/popularMovies.dart';
 import 'package:movie_max/src/blocs/movieBloc/popularMovieBloc/bloc.dart';
 import 'package:movie_max/src/blocs/movieBloc/genreMovieBloc/bloc.dart';
 
@@ -45,8 +45,20 @@ class _HomeMoviesState extends State<HomeMovies> {
             create : (context) => GenreMovieBloc(movieRepository: MovieRepository()),
             child: Genres(),
           ),
-          SizedBox(height: 20,),     
-           BlocProvider(
+          
+          Padding(
+            padding: EdgeInsets.only(left: 10, top: 20),
+            child: Text(
+              'POPULAR MOVIES',
+              style:  TextStyle(
+                color: Colors.blueGrey,
+                fontWeight: FontWeight.w500,
+                fontSize: 15.0
+              ),
+            ),
+          ),
+        SizedBox(height: 20.0,),  
+          BlocProvider(
             create : (context) => PopularMovieBloc(movieRepository: MovieRepository()),
             child: PopularMovies(),
           ),
